@@ -1,0 +1,2695 @@
+{
+  "generatedAt": "2026-03-01T02:39:24.447Z",
+  "trackedCount": 29,
+  "externalCount": 6,
+  "count": 35,
+  "projects": [
+    {
+      "id": "proj_rv5yw11qmm0hb65l",
+      "name": "01_Joyplay",
+      "slug": "01-joyplay",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/01_Joyplay",
+      "visibilityType": "local",
+      "purpose": "01_Joyplay 项目，等待自动摘要补全。",
+      "summary": "01_Joyplay 项目，等待自动摘要补全。",
+      "techStack": [
+        "python",
+        "pandas",
+        "chardet",
+        "api",
+        "requests",
+        "redis",
+        "mysql",
+        "mysql-connector-python",
+        "db_utils.py",
+        "pymysql",
+        "sqlalchemy",
+        "google",
+        "gemini",
+        "ai",
+        "google-generativeai",
+        ".env",
+        "python-dotenv",
+        "jupyter",
+        "dataframe",
+        "ipython",
+        "notebookook",
+        "html",
+        "nbclassic",
+        "ipywidgets"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_e1h10aa7mm0hb65m",
+      "name": "17_AutoWriting",
+      "slug": "17-autowriting",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/17_AutoWriting",
+      "visibilityType": "local",
+      "purpose": "基于AI的自动文章生成系统，能够从新闻网站获取热点主题，生成个性化的写作提示词，并使用Gemini AI生成高质量文章。",
+      "summary": "基于AI的自动文章生成系统，能够从新闻网站获取热点主题，生成个性化的写作提示词，并使用Gemini AI生成高质量文章。",
+      "techStack": [
+        "python",
+        "google-generativeai",
+        "requests",
+        "beautifulsoup4",
+        "python-dotenv",
+        "schedule",
+        "lxml"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_oi6eihn2mm0hb65n",
+      "name": "41_ChatTTS",
+      "slug": "41-chattts",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/41_ChatTTS",
+      "visibilityType": "github",
+      "purpose": "A generative speech model for daily dialogue.",
+      "summary": "A generative speech model for daily dialogue.",
+      "techStack": [
+        "python",
+        "numpy",
+        "numba",
+        "torch",
+        "torchaudio",
+        "tqdm",
+        "vector_quantize_pytorch",
+        "transformers",
+        "vocos",
+        "ipython",
+        "gradio",
+        "pybase16384",
+        "pynini",
+        "sys_platform",
+        "linux",
+        "wetextprocessing",
+        "nemo_text_processing",
+        "av",
+        "pydub"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": "https://img.shields.io/github/license/2noise/ChatTTS?style=for-the-badge",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/2noise/ChatTTS",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/2noise/ChatTTS",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://img.shields.io/github/license/2noise/ChatTTS?style=for-the-badge",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/github/license/2noise/ChatTTS?style=for-the-badge",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/pypi/v/ChatTTS.svg?style=for-the-badge&color=green",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/%F0%9F%A4%97%20-Models-yellow.svg?style=for-the-badge",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/libukai/Awesome-ChatTTS/tree/en",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/CodeBoarding/GeneratedOnBoardings/blob/main/ChatTTS/on_boarding.md",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.bilibili.com/video/BV1zn4y1o7iV",
+          "host": "www.bilibili.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://huggingface.co/2Noise/ChatTTS",
+          "host": "huggingface.co"
+        },
+        {
+          "kind": "readme",
+          "url": "https://discord.gg/Ud5Jxgx5yD",
+          "host": "discord.gg"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/huggingface/transformers/issues/26990",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://huggingface.co/docs/transformers/perf_infer_gpu_one#flashattention-2",
+          "host": "huggingface.co"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/2noise/ChatTTS/assets/130631963/e0f51251-db7f-4d39-a0e9-3e095bb65de1",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/2noise/ChatTTS/assets/130631963/f5dcdd01-1091-47c5-8241-c4f6aaaa8bbd",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/suno-ai/bark",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/coqui-ai/TTS",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://arxiv.org/abs/2301.02111",
+          "host": "arxiv.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/fishaudio/fish-speech",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/gemelo-ai/vocos",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://audio.westlake.edu.cn/",
+          "host": "audio.westlake.edu.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://contrib.rocks/image?repo=2noise/ChatTTS",
+          "host": "contrib.rocks"
+        },
+        {
+          "kind": "readme",
+          "url": "https://counter.seku.su/cmoe?name=chattts&theme=mbs",
+          "host": "counter.seku.su"
+        },
+        {
+          "kind": "readme",
+          "url": "https://trendshift.io/repositories/10489",
+          "host": "trendshift.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://trendshift.io/api/badge/repositories/10489",
+          "host": "trendshift.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/2noise/ChatTTS/blob/main/LICENSE",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://pypi.org/project/ChatTTS",
+          "host": "pypi.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://colab.research.google.com/github/2noise/ChatTTS/blob/main/examples/ipynb/colab.ipynb",
+          "host": "colab.research.google.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/2noise/ChatTTS",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/NVIDIA/TransformerEngine.git@stable",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/2noise/ChatTTS/graphs/contributors",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "arxiv.org",
+        "audio.westlake.edu.cn",
+        "colab.research.google.com",
+        "contrib.rocks",
+        "counter.seku.su",
+        "discord.gg",
+        "github.com",
+        "huggingface.co",
+        "img.shields.io",
+        "pypi.org",
+        "trendshift.io",
+        "www.bilibili.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-37d407eaadf5.png",
+          "apiPath": "/api/projects/proj_oi6eihn2mm0hb65n/screenshots/shot-3-37d407eaadf5.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_oi6eihn2mm0hb65n/shot-3-37d407eaadf5.png",
+          "updatedAt": "2026-02-26T14:28:57.733Z"
+        },
+        {
+          "fileName": "shot-2-204b539e32fa.png",
+          "apiPath": "/api/projects/proj_oi6eihn2mm0hb65n/screenshots/shot-2-204b539e32fa.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_oi6eihn2mm0hb65n/shot-2-204b539e32fa.png",
+          "updatedAt": "2026-02-26T14:28:55.629Z"
+        },
+        {
+          "fileName": "shot-1-0a0b4e92afde.png",
+          "apiPath": "/api/projects/proj_oi6eihn2mm0hb65n/screenshots/shot-1-0a0b4e92afde.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_oi6eihn2mm0hb65n/shot-1-0a0b4e92afde.png",
+          "updatedAt": "2026-02-26T14:28:53.302Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_g0r9osczmm0hb65p",
+      "name": "ai-progress-compare",
+      "slug": "ai-progress-compare",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/ai-progress-compare",
+      "visibilityType": "github",
+      "purpose": "Welcome to your Lovable project",
+      "summary": "Welcome to your Lovable project",
+      "techStack": [
+        "nodejs",
+        "@capacitor/android",
+        "@capacitor/cli",
+        "@capacitor/core",
+        "@capacitor/ios",
+        "@hookform/resolvers",
+        "@radix-ui/react-accordion",
+        "@radix-ui/react-alert-dialog",
+        "@radix-ui/react-aspect-ratio",
+        "@radix-ui/react-avatar",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-collapsible",
+        "@radix-ui/react-context-menu",
+        "@radix-ui/react-dialog",
+        "@radix-ui/react-dropdown-menu",
+        "@radix-ui/react-hover-card",
+        "@radix-ui/react-label",
+        "@radix-ui/react-menubar",
+        "@radix-ui/react-navigation-menu",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-progress",
+        "@radix-ui/react-radio-group",
+        "@radix-ui/react-scroll-area",
+        "@radix-ui/react-select",
+        "@radix-ui/react-separator"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/ai-progress-compare.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/ai-progress-compare.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID",
+          "host": "lovable.dev"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/nvm-sh/nvm#installing-and-updating",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docs.lovable.dev/features/custom-domain#custom-domain",
+          "host": "docs.lovable.dev"
+        }
+      ],
+      "externalHosts": [
+        "docs.lovable.dev",
+        "github.com",
+        "lovable.dev"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_yb5qxhk3mm3k2uvu",
+      "name": "ai-stroke-writer",
+      "slug": "ai-stroke-writer",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/ai-stroke-writer",
+      "visibilityType": "github",
+      "purpose": "AI Stroke Writer",
+      "summary": "AI Stroke Writer",
+      "techStack": [
+        "nodejs",
+        "katex",
+        "docker"
+      ],
+      "localStartCommand": "docker compose up",
+      "productionUrl": "http://host.docker.internal:41400/",
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "gridnote",
+          "name": "gridnote",
+          "score": 0.2676,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: katex",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "ai-stroke-writer 与 gridnote 的主要关系为 流程依赖。共享库: katex；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "git@github.com:LiDeChi/ai-stroke-writer.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "git@github.com:LiDeChi/ai-stroke-writer.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "http://host.docker.internal:41400/",
+          "host": "host.docker.internal:41400"
+        },
+        {
+          "kind": "readme",
+          "url": "http://host.docker.internal:41400/",
+          "host": "host.docker.internal:41400"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "host.docker.internal:41400"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-4-bc904c3028ae.png",
+          "apiPath": "/api/projects/proj_yb5qxhk3mm3k2uvu/screenshots/shot-4-bc904c3028ae.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_yb5qxhk3mm3k2uvu/shot-4-bc904c3028ae.png",
+          "updatedAt": "2026-02-27T08:37:50.663Z"
+        },
+        {
+          "fileName": "shot-2-61239581d7d1.png",
+          "apiPath": "/api/projects/proj_yb5qxhk3mm3k2uvu/screenshots/shot-2-61239581d7d1.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_yb5qxhk3mm3k2uvu/shot-2-61239581d7d1.png",
+          "updatedAt": "2026-02-27T08:37:49.033Z"
+        },
+        {
+          "fileName": "shot-1-6f4b7bc29df1.png",
+          "apiPath": "/api/projects/proj_yb5qxhk3mm3k2uvu/screenshots/shot-1-6f4b7bc29df1.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_yb5qxhk3mm3k2uvu/shot-1-6f4b7bc29df1.png",
+          "updatedAt": "2026-02-27T08:37:47.452Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_asulqs5wmm0hb65p",
+      "name": "apple-notes-webclipper",
+      "slug": "apple-notes-webclipper",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/apple-notes-webclipper",
+      "visibilityType": "github",
+      "purpose": "Apple Notes Web Clipper (Markdown-first)",
+      "summary": "Apple Notes Web Clipper (Markdown-first)",
+      "techStack": [
+        "nodejs",
+        "@mozilla/readability",
+        "markdown-it",
+        "turndown",
+        "@types/chrome",
+        "esbuild",
+        "typescript"
+      ],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "focusor",
+          "name": "focusor",
+          "score": 0.257,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: @types/chrome, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "apple-notes-webclipper 与 focusor 的主要关系为 流程依赖。共享库: @types/chrome, typescript；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/apple-notes-webclipper.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/apple-notes-webclipper.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_uzzc8klumm0hb65p",
+      "name": "auto-test-2",
+      "slug": "auto-test-2",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/auto-test-2",
+      "visibilityType": "github",
+      "purpose": "auto-test-2 项目，等待自动摘要补全。",
+      "summary": "auto-test-2 项目，等待自动摘要补全。",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/auto-test-2.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/auto-test-2.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_l47qtzufmm0hb65q",
+      "name": "code-agent-demo",
+      "slug": "code-agent-demo",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/code-agent-demo",
+      "visibilityType": "github",
+      "purpose": "Codex Agent Panel MVP",
+      "summary": "Codex Agent Panel MVP",
+      "techStack": [
+        "nodejs",
+        "@types/node",
+        "tsx",
+        "typescript",
+        "vitest"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "focusor",
+          "name": "focusor",
+          "score": 0.3304,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: @types/node, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "code-agent-demo 与 focusor 的主要关系为 流程依赖。共享库: @types/node, typescript；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/code-agent-demo.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/code-agent-demo.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_bmc03xpkmm0hb65r",
+      "name": "dmxapi-model-registry",
+      "slug": "dmxapi-model-registry",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/dmxapi-model-registry",
+      "visibilityType": "github",
+      "purpose": "DMXAPI 模型价格聚合",
+      "summary": "DMXAPI 模型价格聚合",
+      "techStack": [
+        "nodejs",
+        "@cloudflare/workers-types",
+        "wrangler"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": "https://rmb.dmxapi.cn/?api=models",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/dmxapi-model-registry.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/dmxapi-model-registry.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://rmb.dmxapi.cn/?api=models",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=models",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=model_prices",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=model_params",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=guangao",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=moxingbeilv",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=buquanbeilv",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=gudingbeilv",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=chuangjianhuancunbeilv",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=huancunmingzhongbeilv",
+          "host": "rmb.dmxapi.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://rmb.dmxapi.cn/?api=shuchumiaojiage",
+          "host": "rmb.dmxapi.cn"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "rmb.dmxapi.cn"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-8e8f930f7624.png",
+          "apiPath": "/api/projects/proj_bmc03xpkmm0hb65r/screenshots/shot-3-8e8f930f7624.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_bmc03xpkmm0hb65r/shot-3-8e8f930f7624.png",
+          "updatedAt": "2026-02-26T14:29:03.687Z"
+        },
+        {
+          "fileName": "shot-2-3ad06ac9aa6b.png",
+          "apiPath": "/api/projects/proj_bmc03xpkmm0hb65r/screenshots/shot-2-3ad06ac9aa6b.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_bmc03xpkmm0hb65r/shot-2-3ad06ac9aa6b.png",
+          "updatedAt": "2026-02-26T14:29:02.009Z"
+        },
+        {
+          "fileName": "shot-1-5c953e2dc466.png",
+          "apiPath": "/api/projects/proj_bmc03xpkmm0hb65r/screenshots/shot-1-5c953e2dc466.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_bmc03xpkmm0hb65r/shot-1-5c953e2dc466.png",
+          "updatedAt": "2026-02-26T14:29:00.264Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_yl5txdrimm0hb65s",
+      "name": "dynamic-delegate-2",
+      "slug": "dynamic-delegate-2",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/dynamic-delegate-2",
+      "visibilityType": "github",
+      "purpose": "Dynamic Sub-agent Orchestration System",
+      "summary": "Dynamic Sub-agent Orchestration System",
+      "techStack": [
+        "python",
+        "claude-agent-sdk",
+        "anthropic",
+        "anyio",
+        "python-dotenv",
+        "pyyaml",
+        "filelock"
+      ],
+      "localStartCommand": "python src/main.py",
+      "productionUrl": null,
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "video-api-doc",
+          "name": "video_api_doc",
+          "score": 0.2858,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "dynamic-delegate-2 与 video_api_doc 的主要关系为 时间邻近。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/dynamic-delegate-2.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/dynamic-delegate-2.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_53fzujlfmm0hb65s",
+      "name": "film-talk",
+      "slug": "film-talk",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/film-talk",
+      "visibilityType": "local",
+      "purpose": "Film Talk - 电影剧本多智能体生成系统",
+      "summary": "Film Talk - 电影剧本多智能体生成系统",
+      "techStack": [
+        "python",
+        "project",
+        "name",
+        "film-talk",
+        "version",
+        "description",
+        "multi-agent",
+        "film",
+        "script",
+        "generation",
+        "system",
+        "with",
+        "claude",
+        "code",
+        "subagents",
+        "readme",
+        "readme.md",
+        "requires-python",
+        "dependencies",
+        "claude-agent-sdk",
+        "fundus",
+        "anyio",
+        "python-dotenv",
+        "project.scripts",
+        "film_talk.main"
+      ],
+      "localStartCommand": "python -m film_talk",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_2wf1l1xemm0hb65s",
+      "name": "focusor",
+      "slug": "focusor",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/focusor",
+      "visibilityType": "github",
+      "purpose": "Focusor (Chrome Extension MVP)",
+      "summary": "Focusor (Chrome Extension MVP)",
+      "techStack": [
+        "nodejs",
+        "preact",
+        "@crxjs/vite-plugin",
+        "@types/chrome",
+        "@types/node",
+        "puppeteer",
+        "puppeteer-core",
+        "typescript",
+        "vite"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 2,
+      "topRelations": [
+        {
+          "slug": "code-agent-demo",
+          "name": "code-agent-demo",
+          "score": 0.3304,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: @types/node, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "code-agent-demo 与 focusor 的主要关系为 流程依赖。共享库: @types/node, typescript；调用关系: 暂未检测到明确的直接调用。"
+        },
+        {
+          "slug": "apple-notes-webclipper",
+          "name": "apple-notes-webclipper",
+          "score": 0.257,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: @types/chrome, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "apple-notes-webclipper 与 focusor 的主要关系为 流程依赖。共享库: @types/chrome, typescript；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "git@github.com:LiDeChi/focusor-chrome-mvp.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "git@github.com:LiDeChi/focusor-chrome-mvp.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://ark.cn-beijing.volces.com/api/coding",
+          "host": "ark.cn-beijing.volces.com"
+        }
+      ],
+      "externalHosts": [
+        "ark.cn-beijing.volces.com",
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_sii2v2gimm0hb65s",
+      "name": "gridgraph",
+      "slug": "gridgraph",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/gridgraph",
+      "visibilityType": "local",
+      "purpose": "This is a Next.js project bootstrapped with create-next-app.",
+      "summary": "This is a Next.js project bootstrapped with create-next-app.",
+      "techStack": [
+        "nodejs",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "next",
+        "react",
+        "react-dom",
+        "tailwind-merge",
+        "uuid",
+        "zustand",
+        "@tailwindcss/postcss",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@types/uuid",
+        "eslint",
+        "eslint-config-next",
+        "tailwindcss",
+        "typescript"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": "https://nextjs.org/",
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "gridgraph-product",
+          "name": "gridgraph-product",
+          "score": 0.7369,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: eslint, eslint-config-next, next, react, react-dom, tailwindcss",
+            "调用关系: gridgraph-product -> gridgraph（文档提及 gridgraph）",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "gridgraph 与 gridgraph-product 在 workflow_dependency 维度上相关（评分 0.74），主要依据：共享库: eslint, eslint-config-next, next, react, react-dom, tailwindcss；调用关系: gridgraph-product -> gridgraph（文档提及 gridgraph）。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "production",
+          "url": "https://nextjs.org/",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://vercel.com/font",
+          "host": "vercel.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/learn",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/vercel/next.js",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme",
+          "host": "vercel.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/building-your-application/deploying",
+          "host": "nextjs.org"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "nextjs.org",
+        "vercel.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-2-5af19f5831ac.png",
+          "apiPath": "/api/projects/proj_sii2v2gimm0hb65s/screenshots/shot-2-5af19f5831ac.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_sii2v2gimm0hb65s/shot-2-5af19f5831ac.png",
+          "updatedAt": "2026-02-26T14:37:33.509Z"
+        },
+        {
+          "fileName": "shot-1-c941ad20dc84.png",
+          "apiPath": "/api/projects/proj_sii2v2gimm0hb65s/screenshots/shot-1-c941ad20dc84.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_sii2v2gimm0hb65s/shot-1-c941ad20dc84.png",
+          "updatedAt": "2026-02-26T14:37:28.187Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_ukdrv6j5mm0hb65t",
+      "name": "gridgraph-product",
+      "slug": "gridgraph-product",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/gridgraph-product",
+      "visibilityType": "local",
+      "purpose": "This is a Next.js project bootstrapped with create-next-app.",
+      "summary": "This is a Next.js project bootstrapped with create-next-app.",
+      "techStack": [
+        "nodejs",
+        "next",
+        "react",
+        "react-dom",
+        "@tailwindcss/postcss",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "eslint",
+        "eslint-config-next",
+        "tailwindcss",
+        "typescript"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": "https://nextjs.org/",
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "gridgraph",
+          "name": "gridgraph",
+          "score": 0.7369,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: eslint, eslint-config-next, next, react, react-dom, tailwindcss",
+            "调用关系: gridgraph-product -> gridgraph（文档提及 gridgraph）",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "gridgraph 与 gridgraph-product 在 workflow_dependency 维度上相关（评分 0.74），主要依据：共享库: eslint, eslint-config-next, next, react, react-dom, tailwindcss；调用关系: gridgraph-product -> gridgraph（文档提及 gridgraph）。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "production",
+          "url": "https://nextjs.org/",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://vercel.com/font",
+          "host": "vercel.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/learn",
+          "host": "nextjs.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/vercel/next.js",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme",
+          "host": "vercel.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nextjs.org/docs/app/building-your-application/deploying",
+          "host": "nextjs.org"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "nextjs.org",
+        "vercel.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-2-5af19f5831ac.png",
+          "apiPath": "/api/projects/proj_ukdrv6j5mm0hb65t/screenshots/shot-2-5af19f5831ac.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_ukdrv6j5mm0hb65t/shot-2-5af19f5831ac.png",
+          "updatedAt": "2026-02-26T14:37:26.688Z"
+        },
+        {
+          "fileName": "shot-1-c941ad20dc84.png",
+          "apiPath": "/api/projects/proj_ukdrv6j5mm0hb65t/screenshots/shot-1-c941ad20dc84.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_ukdrv6j5mm0hb65t/shot-1-c941ad20dc84.png",
+          "updatedAt": "2026-02-26T14:37:22.255Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_i2pronbumm0hb65u",
+      "name": "gridnote",
+      "slug": "gridnote",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/gridnote",
+      "visibilityType": "github",
+      "purpose": "gridnote 项目，等待自动摘要补全。",
+      "summary": "gridnote 项目，等待自动摘要补全。",
+      "techStack": [
+        "nodejs",
+        "@remotion/google-fonts",
+        "@remotion/media",
+        "@supabase/supabase-js",
+        "katex",
+        "react",
+        "react-dom",
+        "remotion",
+        "@remotion/cli",
+        "@types/react",
+        "@types/react-dom",
+        "@vitejs/plugin-react",
+        "jsdom",
+        "typescript",
+        "vite",
+        "vitest"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 2,
+      "topRelations": [
+        {
+          "slug": "my-blog",
+          "name": "my-blog",
+          "score": 0.3552,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: react, react-dom, @supabase/supabase-js, @types/react, @types/react-dom, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "gridnote 与 my-blog 的主要关系为 时间邻近。共享库: react, react-dom, @supabase/supabase-js, @types/react, @types/react-dom, typescript；调用关系: 暂未检测到明确的直接调用。"
+        },
+        {
+          "slug": "ai-stroke-writer",
+          "name": "ai-stroke-writer",
+          "score": 0.2676,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: katex",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "ai-stroke-writer 与 gridnote 的主要关系为 流程依赖。共享库: katex；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/latti.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/latti.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_j9h58jmpmm0hb65u",
+      "name": "json-render",
+      "slug": "json-render",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/json-render",
+      "visibilityType": "github",
+      "purpose": "json-render",
+      "summary": "json-render",
+      "techStack": [
+        "nodejs",
+        "@testing-library/dom",
+        "@testing-library/react",
+        "husky",
+        "jsdom",
+        "lint-staged",
+        "prettier",
+        "turbo",
+        "typescript",
+        "vitest"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/vercel-labs/json-render",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/vercel-labs/json-render",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/vercel-labs/json-render",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-1-c941ad20dc84.png",
+          "apiPath": "/api/projects/proj_j9h58jmpmm0hb65u/screenshots/shot-1-c941ad20dc84.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_j9h58jmpmm0hb65u/shot-1-c941ad20dc84.png",
+          "updatedAt": "2026-02-26T14:28:41.111Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_5vn0l2xcmm0hb65u",
+      "name": "llm-layer",
+      "slug": "llm-layer",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/llm-layer",
+      "visibilityType": "github",
+      "purpose": "llm-layer",
+      "summary": "llm-layer",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "git@github.com:LiDeChi/llm-layer.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "git@github.com:LiDeChi/llm-layer.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-1-8ba23e1d2045.png",
+          "apiPath": "/api/projects/proj_5vn0l2xcmm0hb65u/screenshots/shot-1-8ba23e1d2045.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_5vn0l2xcmm0hb65u/shot-1-8ba23e1d2045.png",
+          "updatedAt": "2026-02-26T14:15:32.651Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_w70lf6r5mm0hb65u",
+      "name": "manim",
+      "slug": "manim",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/manim",
+      "visibilityType": "github",
+      "purpose": "[](https://pypi.org/project/manimgl/) [](http://choosealicense.com/licenses/mit/) [](https://www.reddit.com/r/manim/)",
+      "summary": "[](https://pypi.org/project/manimgl/) [](http://choosealicense.com/licenses/mit/) [](https://www.reddit.com/r/manim/)",
+      "techStack": [
+        "python",
+        "build-system",
+        "requires",
+        "setuptools",
+        "wheel",
+        "addict",
+        "appdirs",
+        "audioop-lts",
+        "python_version",
+        "colour",
+        "diskcache",
+        "ipython",
+        "isosurfaces",
+        "fonttools",
+        "manimpango",
+        "mapbox-earcut",
+        "matplotlib",
+        "moderngl",
+        "moderngl_window",
+        "numpy",
+        "pillow",
+        "pydub",
+        "pygments",
+        "pyopengl",
+        "pyperclip"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": "https://img.shields.io/pypi/v/manimgl?logo=pypi",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/3b1b/manim.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/3b1b/manim.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://img.shields.io/pypi/v/manimgl?logo=pypi",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/pypi/v/manimgl?logo=pypi",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/license-MIT-blue.svg?style=flat",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=ff4301&label=reddit&logo=reddit",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/discord/581738731934056449.svg?label=discord&logo=discord",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/3b1b/manim/workflows/docs/badge.svg",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.3blue1brown.com/",
+          "host": "www.3blue1brown.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/3b1b/videos",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/ManimCommunity/manim/",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docs.manim.community/en/stable/faq/installation.html#different-versions",
+          "host": "docs.manim.community"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/ManimCommunity/manim",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://ffmpeg.org/",
+          "host": "ffmpeg.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.opengl.org/",
+          "host": "www.opengl.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.latex-project.org/",
+          "host": "www.latex-project.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://pango.org/",
+          "host": "pango.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/ManimCommunity/ManimPango#building",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.wikihow.com/Install-FFmpeg-on-Windows",
+          "host": "www.wikihow.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://miktex.org/download",
+          "host": "miktex.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://3b1b.github.io/manim/getting_started/example_scenes.html",
+          "host": "3b1b.github.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.youtube.com/watch?v=rbu7Zu5X1zI",
+          "host": "www.youtube.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/3b1b/videos/blob/master/custom_config.yml",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://3b1b.github.io/manim/",
+          "host": "3b1b.github.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://manim.org.cn/",
+          "host": "manim.org.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docs.manim.org.cn/",
+          "host": "docs.manim.org.cn"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/manim-kindergarten/",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/manim-kindergarten/manim_sandbox",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/3b1b/manim",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png",
+          "host": "raw.githubusercontent.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://pypi.org/project/manimgl/",
+          "host": "pypi.org"
+        },
+        {
+          "kind": "readme",
+          "url": "http://choosealicense.com/licenses/mit/",
+          "host": "choosealicense.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.reddit.com/r/manim/",
+          "host": "www.reddit.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://discord.com/invite/bYCyhM9Kz2",
+          "host": "discord.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/3b1b/manim.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "3b1b.github.io",
+        "choosealicense.com",
+        "discord.com",
+        "docs.manim.community",
+        "docs.manim.org.cn",
+        "ffmpeg.org",
+        "github.com",
+        "img.shields.io",
+        "manim.org.cn",
+        "miktex.org",
+        "pango.org",
+        "pypi.org",
+        "raw.githubusercontent.com",
+        "www.3blue1brown.com",
+        "www.latex-project.org",
+        "www.opengl.org",
+        "www.reddit.com",
+        "www.wikihow.com",
+        "www.youtube.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-c2f1816667e1.png",
+          "apiPath": "/api/projects/proj_w70lf6r5mm0hb65u/screenshots/shot-3-c2f1816667e1.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_w70lf6r5mm0hb65u/shot-3-c2f1816667e1.png",
+          "updatedAt": "2026-02-26T14:28:50.981Z"
+        },
+        {
+          "fileName": "shot-2-10eb307db3ce.png",
+          "apiPath": "/api/projects/proj_w70lf6r5mm0hb65u/screenshots/shot-2-10eb307db3ce.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_w70lf6r5mm0hb65u/shot-2-10eb307db3ce.png",
+          "updatedAt": "2026-02-26T14:28:48.817Z"
+        },
+        {
+          "fileName": "shot-1-cf14760b8df9.png",
+          "apiPath": "/api/projects/proj_w70lf6r5mm0hb65u/screenshots/shot-1-cf14760b8df9.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_w70lf6r5mm0hb65u/shot-1-cf14760b8df9.png",
+          "updatedAt": "2026-02-26T14:28:46.885Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_cuoy8zgxmm0hb65n",
+      "name": "Manim Docs",
+      "slug": "manim-docs",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/Manim Docs",
+      "visibilityType": "local",
+      "purpose": "Manim Docs 项目，等待自动摘要补全。",
+      "summary": "Manim Docs 项目，等待自动摘要补全。",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_68rl4fuimm0hb65v",
+      "name": "manim-generator",
+      "slug": "manim-generator",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/manim-generator",
+      "visibilityType": "github",
+      "purpose": "AI - Manim Video Generator",
+      "summary": "AI - Manim Video Generator",
+      "techStack": [
+        "python",
+        "build-system",
+        "requires",
+        "hatchling",
+        "build-backend",
+        "hatchling.build",
+        "project",
+        "name",
+        "manim-generator",
+        "version",
+        "description",
+        "automatic",
+        "video",
+        "generation",
+        "using",
+        "an",
+        "agentic",
+        "llm",
+        "flow",
+        "in",
+        "combination",
+        "with",
+        "the",
+        "manim",
+        "library."
+      ],
+      "localStartCommand": "python -m manim_generator",
+      "productionUrl": "https://www.manim.community/",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/makefinks/manim-generator.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/makefinks/manim-generator.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://www.manim.community/",
+          "host": "www.manim.community"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.manim.community/",
+          "host": "www.manim.community"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Manim%20Bench-Visit%20Leaderboard-blue?style=for-the-badge",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://manim-bench.makefinks.dev/",
+          "host": "manim-bench.makefinks.dev"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/astral-sh/uv",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://openrouter.ai/",
+          "host": "openrouter.ai"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/makefinks/manim-generator.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://openrouter.ai/models?modality=text+image-%3Etext",
+          "host": "openrouter.ai"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "img.shields.io",
+        "manim-bench.makefinks.dev",
+        "openrouter.ai",
+        "www.manim.community"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-d2cc5c55fb7b.png",
+          "apiPath": "/api/projects/proj_68rl4fuimm0hb65v/screenshots/shot-3-d2cc5c55fb7b.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_68rl4fuimm0hb65v/shot-3-d2cc5c55fb7b.png",
+          "updatedAt": "2026-02-26T14:29:12.924Z"
+        },
+        {
+          "fileName": "shot-2-507a65eb336a.png",
+          "apiPath": "/api/projects/proj_68rl4fuimm0hb65v/screenshots/shot-2-507a65eb336a.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_68rl4fuimm0hb65v/shot-2-507a65eb336a.png",
+          "updatedAt": "2026-02-26T14:29:09.137Z"
+        },
+        {
+          "fileName": "shot-1-78a12bdcb24a.png",
+          "apiPath": "/api/projects/proj_68rl4fuimm0hb65v/screenshots/shot-1-78a12bdcb24a.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_68rl4fuimm0hb65v/shot-1-78a12bdcb24a.png",
+          "updatedAt": "2026-02-26T14:29:07.024Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_2ajrtoo6mm3hmvw5",
+      "name": "my-blog",
+      "slug": "my-blog",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/my-blog",
+      "visibilityType": "github",
+      "purpose": "wordm.us Personal Site (Vite + React)",
+      "summary": "wordm.us Personal Site (Vite + React)",
+      "techStack": [
+        "nodejs",
+        "@supabase/supabase-js",
+        "react",
+        "react-dom",
+        "@eslint/js",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@vitejs/plugin-react",
+        "eslint",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-react-refresh",
+        "globals",
+        "typescript",
+        "typescript-eslint",
+        "vite"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": "https://gridnote.wordm.us/?lang=zh",
+      "relationCount": 2,
+      "topRelations": [
+        {
+          "slug": "gridnote",
+          "name": "gridnote",
+          "score": 0.3552,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: react, react-dom, @supabase/supabase-js, @types/react, @types/react-dom, typescript",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "gridnote 与 my-blog 的主要关系为 时间邻近。共享库: react, react-dom, @supabase/supabase-js, @types/react, @types/react-dom, typescript；调用关系: 暂未检测到明确的直接调用。"
+        },
+        {
+          "slug": "wordm",
+          "name": "wordm",
+          "score": 0.32,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: my-blog -> wordm（API 主机 gridnote.wordm.us）",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "my-blog 与 wordm 的主要关系为 流程依赖。共享库: 暂未发现可确认的共享第三方库；调用关系: my-blog -> wordm（API 主机 gridnote.wordm.us）。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "git@github.com:LiDeChi/wordm-personal-site.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "git@github.com:LiDeChi/wordm-personal-site.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://gridnote.wordm.us/?lang=zh",
+          "host": "gridnote.wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/LiDeChi/latti/blob/main/docs/selfhost-one-click.md",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://raw.githubusercontent.com/LiDeChi/latti/main/scripts/selfhost-install.sh",
+          "host": "raw.githubusercontent.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://gridnote.wordm.us/?lang=zh",
+          "host": "gridnote.wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://gridnote.wordm.us/?lang=en",
+          "host": "gridnote.wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://gridnote.wordm.us/api/:splat",
+          "host": "gridnote.wordm.us"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "gridnote.wordm.us",
+        "raw.githubusercontent.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-0fccc52ae76d.png",
+          "apiPath": "/api/projects/proj_2ajrtoo6mm3hmvw5/screenshots/shot-3-0fccc52ae76d.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_2ajrtoo6mm3hmvw5/shot-3-0fccc52ae76d.png",
+          "updatedAt": "2026-02-28T03:15:52.744Z"
+        },
+        {
+          "fileName": "shot-2-c88d1f7b4cec.png",
+          "apiPath": "/api/projects/proj_2ajrtoo6mm3hmvw5/screenshots/shot-2-c88d1f7b4cec.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_2ajrtoo6mm3hmvw5/shot-2-c88d1f7b4cec.png",
+          "updatedAt": "2026-02-28T03:15:49.630Z"
+        },
+        {
+          "fileName": "shot-1-e54174a98fc9.png",
+          "apiPath": "/api/projects/proj_2ajrtoo6mm3hmvw5/screenshots/shot-1-e54174a98fc9.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_2ajrtoo6mm3hmvw5/shot-1-e54174a98fc9.png",
+          "updatedAt": "2026-02-28T03:15:44.622Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_kzsf0fqbmm3hmvw5",
+      "name": "nanoclaw",
+      "slug": "nanoclaw",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/nanoclaw",
+      "visibilityType": "github",
+      "purpose": "An AI assistant that runs agents securely in their own containers. Lightweight, built to be easily understood and completely customized for your needs.",
+      "summary": "An AI assistant that runs agents securely in their own containers. Lightweight, built to be easily understood and completely customized for your needs.",
+      "techStack": [
+        "nodejs",
+        "@whiskeysockets/baileys",
+        "better-sqlite3",
+        "cron-parser",
+        "pino",
+        "pino-pretty",
+        "qrcode",
+        "qrcode-terminal",
+        "yaml",
+        "zod",
+        "@types/better-sqlite3",
+        "@types/node",
+        "@types/qrcode-terminal",
+        "@vitest/coverage-v8",
+        "prettier",
+        "tsx",
+        "typescript",
+        "vitest"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": "https://code.claude.com/docs/en/agent-teams",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/qwibitai/nanoclaw.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/qwibitai/nanoclaw.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://code.claude.com/docs/en/agent-teams",
+          "host": "code.claude.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://code.claude.com/docs/en/agent-teams",
+          "host": "code.claude.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/openclaw/openclaw",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://code.claude.com/docs/en/skills",
+          "host": "code.claude.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://claude.ai/download",
+          "host": "claude.ai"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/apple/container",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docker.com/products/docker-desktop",
+          "host": "docker.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://discord.gg/VDdww8qS42",
+          "host": "discord.gg"
+        },
+        {
+          "kind": "readme",
+          "url": "https://nanoclaw.dev/",
+          "host": "nanoclaw.dev"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/discord/1470188214710046894?label=Discord&logo=discord&v=2",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/qwibitai/NanoClaw.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "claude.ai",
+        "code.claude.com",
+        "discord.gg",
+        "docker.com",
+        "github.com",
+        "img.shields.io",
+        "nanoclaw.dev"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-6496ea445a65.png",
+          "apiPath": "/api/projects/proj_kzsf0fqbmm3hmvw5/screenshots/shot-3-6496ea445a65.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_kzsf0fqbmm3hmvw5/shot-3-6496ea445a65.png",
+          "updatedAt": "2026-02-26T14:16:43.985Z"
+        },
+        {
+          "fileName": "shot-2-bbd9e46f13d6.png",
+          "apiPath": "/api/projects/proj_kzsf0fqbmm3hmvw5/screenshots/shot-2-bbd9e46f13d6.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_kzsf0fqbmm3hmvw5/shot-2-bbd9e46f13d6.png",
+          "updatedAt": "2026-02-26T14:16:32.432Z"
+        },
+        {
+          "fileName": "shot-1-af6e67553694.png",
+          "apiPath": "/api/projects/proj_kzsf0fqbmm3hmvw5/screenshots/shot-1-af6e67553694.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_kzsf0fqbmm3hmvw5/shot-1-af6e67553694.png",
+          "updatedAt": "2026-02-26T14:15:47.448Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_7pnn99s7mm0hb65v",
+      "name": "nlm-api",
+      "slug": "nlm-api",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/nlm-api",
+      "visibilityType": "github",
+      "purpose": "NotebookLM Web App",
+      "summary": "NotebookLM Web App",
+      "techStack": [
+        "docker"
+      ],
+      "localStartCommand": "docker compose up",
+      "productionUrl": "https://www.docker.com/products/docker-desktop/",
+      "relationCount": 2,
+      "topRelations": [
+        {
+          "slug": "oversea-news",
+          "name": "oversea_news",
+          "score": 0.4964,
+          "type": "tech_overlap",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 技术共享"
+          ],
+          "explanation": "nlm-api 与 oversea_news 的主要关系为 技术共享。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        },
+        {
+          "slug": "video-api-doc",
+          "name": "video_api_doc",
+          "score": 0.2503,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "nlm-api 与 video_api_doc 的主要关系为 时间邻近。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/nlm-api.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/nlm-api.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://www.docker.com/products/docker-desktop/",
+          "host": "www.docker.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/teng-lin/notebooklm-py",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.docker.com/products/docker-desktop/",
+          "host": "www.docker.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/%E4%BD%A0%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D/nlm-api.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://xxx.trycloudflare.com`)./",
+          "host": "xxx.trycloudflare.com`)."
+        },
+        {
+          "kind": "readme",
+          "url": "https://nlm.yourdomain.com/",
+          "host": "nlm.yourdomain.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "nlm.yourdomain.com",
+        "www.docker.com",
+        "xxx.trycloudflare.com`)."
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-2-e9c696bdbdcf.png",
+          "apiPath": "/api/projects/proj_7pnn99s7mm0hb65v/screenshots/shot-2-e9c696bdbdcf.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_7pnn99s7mm0hb65v/shot-2-e9c696bdbdcf.png",
+          "updatedAt": "2026-02-26T14:37:56.003Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_zc5uxl4bmm0hb65v",
+      "name": "open_deep_research",
+      "slug": "open-deep-research",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/open_deep_research",
+      "visibilityType": "github",
+      "purpose": "Open Deep Research",
+      "summary": "Open Deep Research",
+      "techStack": [
+        "python",
+        "project",
+        "name",
+        "open_deep_research",
+        "version",
+        "description",
+        "planning",
+        "research",
+        "and",
+        "report",
+        "generation.",
+        "authors",
+        "lance",
+        "martin",
+        "readme",
+        "readme.md",
+        "license",
+        "text",
+        "mit",
+        "requires-python",
+        "dependencies",
+        "langgraph",
+        "langchain-community",
+        "langchain-openai",
+        "langchain-anthropic"
+      ],
+      "localStartCommand": "python -m open_deep_research",
+      "productionUrl": "https://blog.langchain.com/open-deep-research/",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/open_deep_research.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/open_deep_research.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://blog.langchain.com/open-deep-research/",
+          "host": "blog.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://blog.langchain.com/open-deep-research/",
+          "host": "blog.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.youtube.com/watch?v=agGiWUpxkhg",
+          "host": "www.youtube.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://python.langchain.com/docs/how_to/chat_models_universal_init/",
+          "host": "python.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://python.langchain.com/docs/integrations/chat/",
+          "host": "python.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/langchain-ai/open_deep_research/issues/75#issuecomment-2811472408",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/langchain-ai/open_deep_research/issues/65#issuecomment-2743586318",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://langchain-ai.github.io/langgraph/concepts/#deployment-options",
+          "host": "langchain-ai.github.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://oap.langchain.com/",
+          "host": "oap.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docs.oap.langchain.com/quickstart",
+          "host": "docs.oap.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://docs.oap.langchain.com/setup/agents",
+          "host": "docs.oap.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/user-attachments/assets/12a2371b-8be2-4219-9b48-90503eb43c69",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/langchain-ai/open_deep_research.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024",
+          "host": "smith.langchain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://github.com/user-attachments/assets/052f2ed3-c664-4a4f-8ec2-074349dcaa3f",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://api.arcade.dev/v1/mcps/ms_0ujssxh0cECutqzMgbtXSGnjorm",
+          "host": "api.arcade.dev"
+        }
+      ],
+      "externalHosts": [
+        "api.arcade.dev",
+        "blog.langchain.com",
+        "docs.oap.langchain.com",
+        "github.com",
+        "langchain-ai.github.io",
+        "oap.langchain.com",
+        "python.langchain.com",
+        "smith.langchain.com",
+        "www.youtube.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-39c7beb2156d.png",
+          "apiPath": "/api/projects/proj_zc5uxl4bmm0hb65v/screenshots/shot-3-39c7beb2156d.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_zc5uxl4bmm0hb65v/shot-3-39c7beb2156d.png",
+          "updatedAt": "2026-02-26T14:37:44.205Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    },
+    {
+      "id": "proj_1onptky2mm0hb65w",
+      "name": "openclaw-dashboard",
+      "slug": "openclaw-dashboard",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/openclaw-dashboard",
+      "visibilityType": "local",
+      "purpose": "openclaw-dashboard 项目，等待自动摘要补全。",
+      "summary": "openclaw-dashboard 项目，等待自动摘要补全。",
+      "techStack": [
+        "nodejs",
+        "express"
+      ],
+      "localStartCommand": "npm run dev",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_ldcq2e58mm0hb65w",
+      "name": "oversea_news",
+      "slug": "oversea-news",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/oversea_news",
+      "visibilityType": "github",
+      "purpose": "海外中国资讯聚合系统",
+      "summary": "海外中国资讯聚合系统",
+      "techStack": [
+        "docker"
+      ],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "nlm-api",
+          "name": "nlm-api",
+          "score": 0.4964,
+          "type": "tech_overlap",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 技术共享"
+          ],
+          "explanation": "nlm-api 与 oversea_news 的主要关系为 技术共享。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/WildNews.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/WildNews.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_91f91wsbmm0hb65w",
+      "name": "page-glance-extension",
+      "slug": "page-glance-extension",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/page-glance-extension",
+      "visibilityType": "github",
+      "purpose": "Page Glance",
+      "summary": "Page Glance",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "git@github.com:LiDeChi/page-glance-extension.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "git@github.com:LiDeChi/page-glance-extension.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://api.openai.com/v1/chat/completions%60%EF%BC%89",
+          "host": "api.openai.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://ark.cn-beijing.volces.com/api/coding/v3%60%EF%BC%88%E6%89%A9%E5%B1%95%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%A1%A5",
+          "host": "ark.cn-beijing.volces.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://ark.cn-beijing.volces.com/api/coding%60%EF%BC%88%E6%89%A9%E5%B1%95%E4%BC%9A%E8%87%AA%E5%8A%A8%E8%A1%A5",
+          "host": "ark.cn-beijing.volces.com"
+        }
+      ],
+      "externalHosts": [
+        "api.openai.com",
+        "ark.cn-beijing.volces.com",
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_dqcu4pvimm0hb65n",
+      "name": "PersonalInflationBasket",
+      "slug": "personalinflationbasket",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/PersonalInflationBasket",
+      "visibilityType": "github",
+      "purpose": "PersonalInflationBasket",
+      "summary": "PersonalInflationBasket",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/PersonalInflationBasket.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/PersonalInflationBasket.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_18332wnxmm0hb65o",
+      "name": "ReLoo",
+      "slug": "reloo",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/ReLoo",
+      "visibilityType": "local",
+      "purpose": "ReLoo 项目，等待自动摘要补全。",
+      "summary": "ReLoo 项目，等待自动摘要补全。",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_dy4eb280mm0hb65w",
+      "name": "stacks",
+      "slug": "stacks",
+      "scope": "external",
+      "repoPath": "/Users/lidechi/Documents/Github/stacks",
+      "visibilityType": "github",
+      "purpose": "Stacks - Download Manager for Anna's Archive",
+      "summary": "Stacks - Download Manager for Anna's Archive",
+      "techStack": [
+        "python",
+        "flask",
+        "flask-cors",
+        "requests",
+        "beautifulsoup4",
+        "pyyaml",
+        "bcrypt",
+        "docker"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": "https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white",
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/zelestcarlyone/stacks",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/zelestcarlyone/stacks",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/Flask-3.0-000000?style=flat&logo=flask&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=flat&logo=tampermonkey&logoColor=white",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://img.shields.io/badge/License-MIT-green.svg",
+          "host": "img.shields.io"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.docker.com/",
+          "host": "www.docker.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.python.org/",
+          "host": "www.python.org"
+        },
+        {
+          "kind": "readme",
+          "url": "https://flask.palletsprojects.com/",
+          "host": "flask.palletsprojects.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://www.tampermonkey.net/",
+          "host": "www.tampermonkey.net"
+        },
+        {
+          "kind": "readme",
+          "url": "https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
+          "host": "en.wikipedia.org"
+        }
+      ],
+      "externalHosts": [
+        "en.wikipedia.org",
+        "flask.palletsprojects.com",
+        "github.com",
+        "img.shields.io",
+        "www.docker.com",
+        "www.python.org",
+        "www.tampermonkey.net"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_oayfwj1wmm0hb65o",
+      "name": "TgBooks",
+      "slug": "tgbooks",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/TgBooks",
+      "visibilityType": "local",
+      "purpose": "TgBooks - Z-Library 机器人自动化工具",
+      "summary": "TgBooks - Z-Library 机器人自动化工具",
+      "techStack": [
+        "python",
+        "telethon",
+        "pyyaml",
+        "python-dotenv",
+        "cryptg",
+        "playwright",
+        "fastapi",
+        "uvicorn",
+        "python-multipart",
+        "docker"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_jinzn1ddmm0hb65x",
+      "name": "video_api_doc",
+      "slug": "video-api-doc",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/video_api_doc",
+      "visibilityType": "github",
+      "purpose": "阿里云百炼视频生成 API 知识库 & 爬虫项目",
+      "summary": "阿里云百炼视频生成 API 知识库 & 爬虫项目",
+      "techStack": [
+        "python",
+        "crawl4ai",
+        "playwright"
+      ],
+      "localStartCommand": "python main.py",
+      "productionUrl": null,
+      "relationCount": 2,
+      "topRelations": [
+        {
+          "slug": "dynamic-delegate-2",
+          "name": "dynamic-delegate-2",
+          "score": 0.2858,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "dynamic-delegate-2 与 video_api_doc 的主要关系为 时间邻近。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        },
+        {
+          "slug": "nlm-api",
+          "name": "nlm-api",
+          "score": 0.2503,
+          "type": "timeline_cluster",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: 暂未检测到明确的直接调用",
+            "关系类型: 时间邻近"
+          ],
+          "explanation": "nlm-api 与 video_api_doc 的主要关系为 时间邻近。共享库: 暂未发现可确认的共享第三方库；调用关系: 暂未检测到明确的直接调用。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/video_api_doc.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/video_api_doc.git",
+          "host": "github.com"
+        }
+      ],
+      "externalHosts": [
+        "github.com"
+      ],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_zopsdjsqmm0hb65o",
+      "name": "VS",
+      "slug": "vs",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/VS",
+      "visibilityType": "local",
+      "purpose": "VS 项目，等待自动摘要补全。",
+      "summary": "VS 项目，等待自动摘要补全。",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_lsa3hteemm0hb65x",
+      "name": "vs2ios",
+      "slug": "vs2ios",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/vs2ios",
+      "visibilityType": "local",
+      "purpose": "vs2ios 项目，等待自动摘要补全。",
+      "summary": "vs2ios 项目，等待自动摘要补全。",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": null,
+      "relationCount": 0,
+      "topRelations": [],
+      "externalConnections": [],
+      "externalHosts": [],
+      "screenshots": [],
+      "screenshotStatus": "missing"
+    },
+    {
+      "id": "proj_dp3egih3mm0hb65y",
+      "name": "wordm",
+      "slug": "wordm",
+      "scope": "tracked",
+      "repoPath": "/Users/lidechi/Documents/Github/wordm",
+      "visibilityType": "github",
+      "purpose": "WordM Homepage",
+      "summary": "WordM Homepage",
+      "techStack": [],
+      "localStartCommand": null,
+      "productionUrl": "https://gridnote.wordm.us/",
+      "relationCount": 1,
+      "topRelations": [
+        {
+          "slug": "my-blog",
+          "name": "my-blog",
+          "score": 0.32,
+          "type": "workflow_dependency",
+          "evidence": [
+            "共享库: 暂未发现可确认的共享第三方库",
+            "调用关系: my-blog -> wordm（API 主机 gridnote.wordm.us）",
+            "关系类型: 流程依赖"
+          ],
+          "explanation": "my-blog 与 wordm 的主要关系为 流程依赖。共享库: 暂未发现可确认的共享第三方库；调用关系: my-blog -> wordm（API 主机 gridnote.wordm.us）。"
+        }
+      ],
+      "externalConnections": [
+        {
+          "kind": "remote",
+          "url": "https://github.com/LiDeChi/wordm.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "source",
+          "url": "https://github.com/LiDeChi/wordm.git",
+          "host": "github.com"
+        },
+        {
+          "kind": "production",
+          "url": "https://gridnote.wordm.us/",
+          "host": "gridnote.wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://gridnote.wordm.us/",
+          "host": "gridnote.wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://wordm.us/",
+          "host": "wordm.us"
+        },
+        {
+          "kind": "readme",
+          "url": "https://your-domain.com/api/metrics?days=7",
+          "host": "your-domain.com"
+        },
+        {
+          "kind": "readme",
+          "url": "https://latti.wordm.us/zh",
+          "host": "latti.wordm.us"
+        }
+      ],
+      "externalHosts": [
+        "github.com",
+        "gridnote.wordm.us",
+        "latti.wordm.us",
+        "wordm.us",
+        "your-domain.com"
+      ],
+      "screenshots": [
+        {
+          "fileName": "shot-3-bb6425cbfd72.png",
+          "apiPath": "/api/projects/proj_dp3egih3mm0hb65y/screenshots/shot-3-bb6425cbfd72.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_dp3egih3mm0hb65y/shot-3-bb6425cbfd72.png",
+          "updatedAt": "2026-02-26T14:16:33.099Z"
+        },
+        {
+          "fileName": "shot-2-40fde795e85c.png",
+          "apiPath": "/api/projects/proj_dp3egih3mm0hb65y/screenshots/shot-2-40fde795e85c.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_dp3egih3mm0hb65y/shot-2-40fde795e85c.png",
+          "updatedAt": "2026-02-26T14:16:29.650Z"
+        },
+        {
+          "fileName": "shot-1-c01c688d969e.png",
+          "apiPath": "/api/projects/proj_dp3egih3mm0hb65y/screenshots/shot-1-c01c688d969e.png",
+          "localPath": "/Users/lidechi/Documents/Github/center-control/data/screenshots/proj_dp3egih3mm0hb65y/shot-1-c01c688d969e.png",
+          "updatedAt": "2026-02-26T14:15:48.551Z"
+        }
+      ],
+      "screenshotStatus": "ready"
+    }
+  ]
+}

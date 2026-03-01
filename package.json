@@ -1,0 +1,32 @@
+{
+  "name": "center-control",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,worker -c cyan,magenta \"npm run dev -w @center/web\" \"npm run dev -w @center/worker\"",
+    "build": "npm run build -w @center/core && npm run build -w @center/db && npm run build -w @center/worker && npm run build -w @center/web",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:watch": "vitest",
+    "db:generate": "npm run db:generate -w @center/db",
+    "db:push": "npm run db:push -w @center/db",
+    "db:prepare": "npm run db:generate && npm run db:push",
+    "sync": "npm run sync -w @center/worker",
+    "start:web": "npm run start -w @center/web",
+    "start:worker": "npm run start -w @center/worker"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10",
+    "@types/react": "18.3.28",
+    "@types/react-dom": "18.3.7",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

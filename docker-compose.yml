@@ -1,0 +1,77 @@
+services:
+  db:
+    image: alpine:3.20
+    command: ["sh", "-c", "mkdir -p /var/lib/center-control && tail -f /dev/null"]
+    volumes:
+      - db_data:/var/lib/center-control
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    command: >
+      sh -c "
+      npm run db:push &&
+      npm run build -w @center/web &&
+      npm run start:web
+      "
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    environment:
+      DATABASE_URL: file:/app/data/db/center-control.db
+      GITHUB_ROOT: /data/github
+      REPORTS_DIR: /app/data/reports
+      EXPORTS_DIR: /app/data/exports
+      TZ: ${TZ:-America/New_York}
+      REPORT_TIME: ${REPORT_TIME:-09:00}
+      OWNER_LOGIN: ${OWNER_LOGIN:-LiDeChi}
+      NEXT_PUBLIC_HOST_GITHUB_ROOT: ${HOST_GITHUB_ROOT:-/Users/lidechi/Documents/Github}
+      LITELLM_GATEWAY_PORT: ${LITELLM_GATEWAY_PORT:-41400}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://host.docker.internal:41400}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gpt-5.2-codex}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ${GITHUB_ROOT:-/Users/lidechi/Documents/Github}:/data/github:ro
+      - ./data/reports:/app/data/reports
+      - ./data/exports:/app/data/exports
+      - db_data:/app/data/db
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    command: >
+      sh -c "
+      npm run db:push &&
+      npm run start:worker
+      "
+    environment:
+      DATABASE_URL: file:/app/data/db/center-control.db
+      GITHUB_ROOT: /data/github
+      REPORTS_DIR: /app/data/reports
+      EXPORTS_DIR: /app/data/exports
+      TZ: ${TZ:-America/New_York}
+      REPORT_TIME: ${REPORT_TIME:-09:00}
+      OWNER_LOGIN: ${OWNER_LOGIN:-LiDeChi}
+      LITELLM_GATEWAY_PORT: ${LITELLM_GATEWAY_PORT:-41400}
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://host.docker.internal:41400}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gpt-5.2-codex}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ${GITHUB_ROOT:-/Users/lidechi/Documents/Github}:/data/github:ro
+      - ./data/reports:/app/data/reports
+      - ./data/exports:/app/data/exports
+      - db_data:/app/data/db
+
+volumes:
+  db_data:
