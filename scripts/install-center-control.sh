@@ -188,6 +188,7 @@ resolved_root="$(json_get "$response_body" "install.defaultGithubRoot")"
 resolved_owner="$(json_get "$response_body" "install.defaultOwnerLogin")"
 resolved_report_time="$(json_get "$response_body" "install.defaultReportTime")"
 resolved_timezone="$(json_get "$response_body" "install.defaultTimezone")"
+resolved_access_tier="$(json_get "$response_body" "accessTier")"
 
 if [[ -z "$REPO_URL" ]]; then
   REPO_URL="$resolved_repo"
@@ -231,6 +232,10 @@ if [[ -z "$TIMEZONE" ]]; then
   TIMEZONE="America/New_York"
 fi
 
+if [[ "$resolved_access_tier" != "paid" ]]; then
+  resolved_access_tier="free"
+fi
+
 if [[ -d "$TARGET_DIR/.git" ]]; then
   git -C "$TARGET_DIR" fetch --all --tags --prune
   git -C "$TARGET_DIR" checkout "$GIT_REF"
@@ -248,6 +253,8 @@ fi
   OWNER_LOGIN="$OWNER_LOGIN" \
   REPORT_TIME="$REPORT_TIME" \
   TZ="$TIMEZONE" \
+  CENTER_CONTROL_ACCESS_TIER="$resolved_access_tier" \
+  NEXT_PUBLIC_CENTER_CONTROL_ACCESS_TIER="$resolved_access_tier" \
   HOST_GITHUB_ROOT="$GITHUB_ROOT" \
   docker compose up -d --build
 )
@@ -261,6 +268,7 @@ echo "  GITHUB_ROOT=${GITHUB_ROOT}"
 echo "  OWNER_LOGIN=${OWNER_LOGIN}"
 echo "  REPORT_TIME=${REPORT_TIME}"
 echo "  TZ=${TIMEZONE}"
+echo "  ACCESS_TIER=${resolved_access_tier}"
 echo
 echo "Manage service:"
 echo "  cd \"${TARGET_DIR}\" && WEB_PORT=${PORT} GITHUB_ROOT=\"${GITHUB_ROOT}\" docker compose ps"
